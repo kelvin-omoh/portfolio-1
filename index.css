@@ -8,6 +8,7 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: 0.2s linear;
+    overflow-x: hidden;
    
 }
 
@@ -635,6 +636,22 @@ color: var(--dark-bg);
 }
 
 @media (max-width:770px){
+    .client  .box .content  {
+        font-size: 1.0rem;
+        color: var(--dark-grey);
+        margin-bottom: 2rem;
+        line-height: 1.5;
+       letter-spacing: 0.1rem;
+       text-transform: none; 
+    
+    }
+    
+    .client .box-container .box .content p :nth-child(1){
+       font-style: italic;
+       font-size: 0.6rem;
+       color:var(--yellow); 
+    }
+
     .header .menu{
         display: block;
     }
@@ -664,17 +681,23 @@ color: var(--dark-bg);
     .about .box-container .box .image img{
       
         width: 100%;
-        height: 30%;
+        height: 80%;
         border-radius: 15%;
         object-fit: cover;
        
    
    }
-    .about .box-container  {
+    /* .about .box-container  {
   display: grid;
   grid-template-columns: repeat(2,1fr);
        
    
-   }
+   } */
+
+   .client .box-container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
 }
 
