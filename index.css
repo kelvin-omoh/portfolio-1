@@ -319,6 +319,13 @@ color: var(--dark-bg);
 
 }
 
+@media (max-width:768px){
+    .about .box-container .box .image img{
+       display: none;
+   
+   } 
+}
+
 .about .box-container{
     display:grid ;
     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
