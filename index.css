@@ -299,7 +299,7 @@ color: var(--dark-bg);
 
 .resume .col-container .col .box .university{
     color: var(--light-gray);
-    text-transform: capitalize  ;
+    /* text-transform: capitalize  ; */
 
 
 }
@@ -441,6 +441,7 @@ color: var(--dark-bg);
 
 .services .box-container .box .btn-2:hover ion-icon{
     padding: 0 0 0 1.5rem;
+   
 } 
 .services .box-container .box ion-icon{
     font-size: 2rem;
