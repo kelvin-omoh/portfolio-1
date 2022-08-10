@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./Screenshot 2022-08-10 at 14.12.11.png">
+    <title>  Enaikele omoh kelvin portfolio</title>
     <link rel="stylesheet" href="./index.css">
     <script src="./index.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=MAterial+icons">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   
 
     <!-- header section start  -->
-    <header class="header">
+    <header class="header">  
+   
      <i onclick="menu-bar" class="menu fa-solid fa-bars"></i>
-
 <!-- 
      <a href=""><i class="close fa-solid fa-xmark"></i></a> -->
 
-
+ 
      <nav class="navbar">
+  
+       
+ 
+       
          <a href="#">Home</a>  
          <a href="#about">About</a> 
          <a href="#resume">Resume</a>
@@ -37,7 +43,7 @@
 
     
     <!-- home section  -->
-    <setion class="home" id="home">
+    <setion class="home" id="home"  data-aos-duration="2000" data-aos="zoom-out">
             <h1 class="hero-text">
                 Hello , i`m <br> <span>Kelvin Omoh</span>
             </h1>
@@ -56,14 +62,15 @@
             
             <div class="box-container">
                 <div class="box">
-                    <div class="image">
-                        <img style="filter: blur(.8px);" src="./IMG_0701 2.JPG" alt="">
+                    <div class="image" data-aos="fade-right" >
+                        <img src="./WhatsApp Image 2022-08-09 at 7.23.25 AM.jpeg"  alt="">
                     </div>
                 </div>
     
                 <div class="box">
-                    <h1 class="heading">
+                    <h1 class="heading" data-aos="fade-left">
                         About <span>me</span>
+                   </h1>
                        <p>
                         I enjoy being challenged  with projects that requires me to work outside my comfort with time frame and impactful demonstration of  interest, skill and knowledge , as i continue to yearn for new languages and development techniques that are important to my carrer as Frontend developer. I am delligent, hardworking, dedicated, and open-minded. I am open to people and adjust to changes with ease as 
                         frontend developer. I am also  easy going, God fearing and sport lover.
@@ -75,7 +82,7 @@
                         <a href="#contact"  class="btn">Hire me</a>
                         <a href="./Resume-enaikele-omoh (2).pdf" class="btn" download="Enaikele omoh kelvin Resume">Download CV</a>
     
-                    </h1>
+                   
                 </div>
     
             </div>
@@ -93,12 +100,12 @@
 
          <!-- resume section  -->
 
-    <section class="resume" id="resume">
+    <section data-aos="zoom-out"  class="resume" id="resume">
         <h1 class="heading">My Resume</h1>
         
         <div class="col-container">
 
-            <div class="col">
+            <div class="col" data-aos="zoom-out-right" data-aos-duration="2000">
 
                 <h2>Education</h2>
 
@@ -127,7 +134,7 @@
               <div class="box">
                     <span>   <i class="fa-solid fa-calendar-days"></i> Jan 2018-2020</span>
                     <h3>Science Student</h3>
-                    <p>I was a student of Phidel college,.</p>
+                    <p>I was a student of Phidel college,</p>
                     <p class="univeristy">
                        Phidel-college . Isheri . Idimu . Egbe . Lagos . Nigeria.
                     </p>
@@ -150,7 +157,7 @@
 
          <!-- col 2 -->
 
-            <div class="col">
+            <div class="col" data-aos="zoom-out-left" data-aos-duration="1000">
 
                 <h2>Experience</h2>
 
@@ -222,7 +229,7 @@
 
 
     <!-- Portfolio section  -->
-   <section class="portfolio" id="portfolio">
+   <section class="portfolio" id="portfolio"  data-aos="zoom-in" data-aos-duration="1000">
 
     <h1 class="heading">Featured <span>portfolio</span></h1>
 
@@ -378,7 +385,7 @@
 
 
     <!-- service section -->
-    <section class="services" id="services">
+    <section class="services" data-aos="slide-right"  id="services">
         <h1 class="heading">
             My <span>Services</span>
         </h1>
@@ -386,16 +393,16 @@
 
 
             
-            <div class="box">
+            <div class="box"  data-aos="flip-right" >
                 <ion-icon name="pencil-outline"></ion-icon>
                <h2>UI/UX</h2>
                <p>I apply interactive and visual design principles on websites and web applications for a positive and cohesive user experience to make the user's experience easy and intuitive, requiring minimum effort on the user's part to receive the maximum desired outcome. </p>
-               <a href="#" class="btn-2">learn more <ion-icon name="chevron-forward-outline"></ion-icon></a>
+               <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiln-GTt7z5AhVmVfEDHackDbYQPAgI" class="btn-2">learn more <ion-icon name="chevron-forward-outline"></ion-icon></a>
             </div>
 
 
-            <div class="box">
-                <ion-icon name="code-slash-outline"></ion-icon>
+            <div class="box" data-aos="flip-up">
+                <ion-icon  name="code-slash-outline"></ion-icon>
                <h2>code diagnosis / production and maintenance </h2>
                <p> i Update Website ,
                 Improving Website Speed,
@@ -405,16 +412,16 @@
                 Search Engine Optimization,
                 Ensuring Design Consistency across All Pages,
                 Fixing Broken Links. </p>
-               <a href="#" class="btn-2">learn more <ion-icon name="chevron-forward-outline"></ion-icon></a>
+               <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiln-GTt7z5AhVmVfEDHackDbYQPAgI" class="btn-2">learn more <ion-icon  name="chevron-forward-outline"></ion-icon></a>
             </div>
 
 
-            <div class="box">
-                <ion-icon name="search-outline"></ion-icon>
+            <div class="box" data-aos="flip-left" >
+                <ion-icon name="desktop-outline"></ion-icon>
                <h2>Responsive web design</h2>
                <p>
                  I creates dynamic changes to the appearance of a website, depending on the screen size and orientation of the device being used to view, that look good on all devices(desktops, tablets, and phones).</p>
-               <a href="#" class="btn-2">learn more <ion-icon name="chevron-forward-outline"></ion-icon></a>
+               <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiln-GTt7z5AhVmVfEDHackDbYQPAgI" class="btn-2">learn more <ion-icon name="chevron-forward-outline"></ion-icon></a>
             </div>
         </div>
     </section>
@@ -428,13 +435,13 @@
 
 
     <!-- blog section  -->
-    <section class="blog " id="blog">
+    <section class="blog " data-aos="slide-up" data-aos-duration="1000" id="blog">
         <h1 class="heading">My <span>Blog</span></h1>
 
         <div class="box-container">
 
             
-            <div class="box">
+            <div class="box" data-aos="flip-left" data-aos-duration="2000">
                 <div class="image">
                     <img src="./rob-potter-UsOm97Ari_4-unsplash.jpg" alt="">
                 </div>
@@ -460,7 +467,7 @@
                </div>
                </div>
 
-            <div class="box">
+            <div class="box" data-aos="flip-up" data-aos-duration="2000">
                 <div class="image">
                     <img src="./lance-reis-7dY_rFuvxQ4-unsplash.jpg" alt="">
                 </div>
@@ -486,7 +493,7 @@
               
                 </div>
                 </div>
-            <div class="box">
+            <div class="box" data-aos="flip-left" data-aos-duration="2000">
                 <div class="image">
                     <img src="./komarov-egor-80_0bYDCvtI-unsplash.jpg" alt="">
                 </div>
@@ -522,12 +529,12 @@
 
 
     <!-- contact section  -->
-       <section class="contact" >
+       <section class="contact"  data-aos="fade-down" data-aos-duration="4000">
         <form action="mailto: enaikeleomoh@gmail.com" method="post">
         <h1 class="heading">get <span>in touch</span></h1>
 
         <div class="col-container">
-            <div class="col">
+            <div class="col" data-aos="fade-left" data-aos-duration="1000">
                 <h2>get in touch</h2>
                 <input type="text" placeholder="your name">
                 <input type="email" placeholder="your email">
@@ -538,11 +545,11 @@
                 <a href="mailto: enaikeleomoh@gmail.com" class="btn">Send message</a>
             </div>
 
-            <div class="col" id="contact">
+            <div class="col" data-aos="fade-left" data-aos-duration="1000" id="contact">
                 <h2>my contact details</h2>
                 <p>email</p>
 
-                <a href="mailto: enaikeleomoh@gmail.com" >  <span>enaikeleomoh@gmail.com</span></a>
+                <a href="mailto: enaikeleomoh@gmail.com" >  <span style="text-transform:lowercase ;">enaikeleomoh@gmail.com</span></a>
                
                 <p>phone</p> 
                 <span> +2349073597660</span> 
@@ -602,8 +609,10 @@
          
 
         </div>
-        
+     
         <p>designed and developed by Enaikele </p><span>
+ 
+
             <p>
                 copy-right © 2022 All right reserved | Enaikele-Omoh kelvin 
             </p>
@@ -614,6 +623,9 @@
     <!-- ion icons import -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

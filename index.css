@@ -22,10 +22,12 @@
     --yellow:rgb(171, 171, 6);
     --box-shadow:0 0.5rem 1rem rgb(69, 61, 61);
 
+
 }
 
 
 html{
+
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -120,6 +122,9 @@ section{
 /* header */
 .header{
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     top: 0;
     left: 0;
     right: 0;
@@ -246,15 +251,29 @@ color: var(--dark-bg);
 /* resume  */
 .resume .col-container .col .box{
     background-color:var(--light-bg);
+    height: 22.5rem;
     padding: 2.5rem;
     margin: 2rem 0;
     box-shadow: var(--box-shadow);
+}
+
+@media (max-width:760px){
+    .resume .col-container .col .box{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+        height: 32rem;
+       
+    }
 }
 
 .resume .col-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
     gap: 4rem;
+   
 
 }
 
@@ -262,11 +281,15 @@ color: var(--dark-bg);
     font-size: 4.5rem;
     color: var(--dark-grey);
 }
+
+
 .resume .col-container .col h2{
+    text-align: center;
     font-size: 2.5rem;
     color: var(--white);
     font-weight: 200;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
 }
 
 .resume .col-container .col .box span{
@@ -306,16 +329,18 @@ color: var(--dark-bg);
 /* resume end */
 
 /* about  */
+
 .about .box-container .box .image {
-    height: 100%;
-    overflow: hidden;
+   
+  display: flex;
+  margin: auto 2rem;
 }
 
 .about .box-container .box .image img{
-     width: 100%;
-     height: 60%;
+     width: 45rem;
+     max-height: 50rem;
      border-radius: 15%;
-     object-fit: cover;
+     object-fit:fill;
 
 }
 
@@ -340,6 +365,11 @@ color: var(--dark-bg);
     line-height: 1.5;
     text-transform: none;
 }
+.about .box-container  p{
+    text-align:justify;
+    text-rendering:geometricPrecision;
+   
+    }
 
 /* about end */
 
@@ -401,6 +431,7 @@ color: var(--dark-bg);
 
 /* services */
 .services .box-container{
+   min-height: 42rem;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
     gap: 4rem;
@@ -413,11 +444,11 @@ color: var(--dark-bg);
     box-shadow: var(--box-shadow);
 }
 
-.services .box-container .box .icon{
-    font-size: 4rem;
+.services .box-container .box ion-icon{
+    font-size: 2rem;
     color: var(--light-bg);
     background-color: var(--yellow);
-    padding: 2.5rem;
+    padding: 1.5rem;
     border-radius: 50%;
     margin-bottom: 2rem;
 
@@ -439,15 +470,32 @@ color: var(--dark-bg);
 
 } 
 
-.services .box-container .box .btn-2{
+.services .box-container .box .btn-2 {
     font-size: 1.7rem;
     color: var(--yellow);
     display: flex;
     justify-content: center;
 }
 
+
+.services .box-container .box a{
+    padding: 1.5rem;
+   
+}
+.services .box-container .box a:hover ion-icon{
+    margin: 0 1rem;
+   
+}
+.services .box-container .box a ion-icon {
+    padding: 0rem;
+    background: none;
+    color: var(--yellow);
+}
+
+
 .services .box-container .box .btn-2:hover ion-icon{
-    padding: 0 0 0 1.5rem;
+    /* padding: 0 0 0 .5rem; */
+  
    
 } 
 .services .box-container .box ion-icon{
@@ -707,5 +755,7 @@ color: var(--dark-bg);
     flex-direction: column;
     gap: 4rem;
 }
+
+
 }
 
