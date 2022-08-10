@@ -633,6 +633,7 @@ color: var(--dark-bg);
 .footer{
     border-top: 0.2rem solid var(--light-bg);
     text-align: center;
+
 }
 
 .footer .socials .icons i{
@@ -640,15 +641,15 @@ color: var(--dark-bg);
     color:var(--yellow);
     background-color:var(--light-bg);
     border-radius: 50%;
-    padding: 1rem;
+    padding: .4rem;
     margin: 0 1rem;
     cursor: pointer;
 }
 
 .footer p{
-    font-size: 1.7rem;
+    font-size: 1.1em;
     color: var(--dark-grey);
-    margin-top: 3rem;
+    margin-top: 1rem;
 
 }
 
