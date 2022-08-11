@@ -735,14 +735,13 @@ color: var(--dark-bg);
         margin: 2rem 0;
 
     }
-    .about .box-container .box .image img{
+    /* .about .box-container .box .image img{
       
-        /* width: 100%;
-        height: 80%; */
-       
+ 
+        object-fit: contain;
        
    
-   }
+   } */
     /* .about .box-container  {
   display: grid;
   grid-template-columns: repeat(2,1fr);
