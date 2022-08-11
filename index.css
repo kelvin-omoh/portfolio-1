@@ -633,7 +633,7 @@ color: var(--dark-bg);
 .footer{
     border-top: 0.2rem solid var(--light-bg);
     text-align: center;
-
+    
 }
 
 .footer .socials .icons i{
@@ -735,13 +735,15 @@ color: var(--dark-bg);
         margin: 2rem 0;
 
     }
-    /* .about .box-container .box .image img{
+    .about .box-container .box .image img{
       
- 
-        object-fit: contain;
+        width: 100%;
+        height: 80%;
+        border-radius: 15%;
+        object-fit: cover;
        
    
-   } */
+   }
     /* .about .box-container  {
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -754,8 +756,6 @@ color: var(--dark-bg);
     flex-direction: column;
     gap: 4rem;
 }
-
-
 
 
 }
