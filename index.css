@@ -467,11 +467,12 @@ color: var(--dark-bg);
 }
 
 .services .box-container .box p{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color:var(--dark-grey);
     line-height: 1.5;
     text-transform: none;
-    letter-spacing: 0.1rem;
+    text-align:justify;
+    /* letter-spacing: 0.1rem; */
 
 } 
 
