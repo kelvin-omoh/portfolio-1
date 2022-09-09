@@ -499,12 +499,12 @@ color: var(--dark-bg);
     color: var(--yellow);
 }
 
-
+/* 
 .services .box-container .box .btn-2:hover ion-icon{
-    /* padding: 0 0 0 .5rem; */
+    padding: 0 0 0 .5rem;
   
    
-} 
+}  */
 .services .box-container .box ion-icon{
     font-size: 2rem;
     
