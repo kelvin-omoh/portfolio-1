@@ -258,6 +258,7 @@ color: var(--dark-bg);
     height: 22.5rem;
     padding: 2.5rem;
     margin: 2rem 0;
+    overflow: hidden;
     box-shadow: var(--box-shadow);
 }
 
@@ -277,7 +278,7 @@ color: var(--dark-bg);
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
     gap: 4rem;
-   
+    overflow: hidden;
 
 }
 
