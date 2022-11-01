@@ -603,6 +603,10 @@ color: var(--dark-bg);
     padding-bottom: 5rem;
 }
 
+.contact .email-input{
+    text-transform: lowercase;
+}
+
 .contact .col-container .col input,
 .contact .col-container .col textarea{
     background-color: var(--light-bg);
