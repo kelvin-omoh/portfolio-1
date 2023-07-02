@@ -2,7 +2,7 @@ const navbar = document.querySelector(".navbar");
 const menuBtn = document.querySelector(".menu");
 
 menuBtn.addEventListener("click",()=>{
-    navbar.classList.toggle("show");
+navbar.classList.toggle("show");
 })
 
 
@@ -13,21 +13,21 @@ menuBtn.addEventListener("click",()=>{
 
 
 document.onscroll = () =>{
-    navbar.classList.remove("show");
+navbar.classList.remove("show");
 
-    if(window.scrollY>0){
-        document.querySelector(".header").classList.add("active");
-    }
-    else{
-        document.querySelector(".header").classList.remove("active");
-    }
+if(window.scrollY>0){
+document.querySelector(".header").classList.add("active");
+}
+else{
+document.querySelector(".header").classList.remove("active");
+}
 };
 
 document.onload = () =>{
-    if(window.scrollY>0){
-        document.querySelector(".header").classList.add("active");
-    }
-    else{
-        document.querySelector(".header").classList.remove("active");
-    }
+if(window.scrollY>0){
+document.querySelector(".header").classList.add("active");
+}
+else{
+document.querySelector(".header").classList.remove("active");
+}
 };
